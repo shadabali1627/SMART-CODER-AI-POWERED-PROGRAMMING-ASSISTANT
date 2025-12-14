@@ -10,7 +10,7 @@ import requests
 import json
 
 # Load environment variables
-load_dotenv()
+load_dotenv(override=True)
 
 # Configure Gemini API
 GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY')
