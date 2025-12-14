@@ -32,7 +32,7 @@ generation_config = {
     "max_output_tokens": 8192,
 }
 
-MODEL_NAME = "gemini-2.0-flash"
+MODEL_NAME = "gemini-2.5-flash"
 try:
     model = genai.GenerativeModel(
         model_name=MODEL_NAME,
